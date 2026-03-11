@@ -1,0 +1,13 @@
+## What's Changed
+
+### Rendering & Display
+- **KaTeX CSS CDN**: Switched KaTeX CSS from bundled local fonts to CDN import for smaller bundle size and better font availability
+
+### Stability & Bug Fixes  
+- **Companion process stability**: Improved companion process handling, custom-agent registration, and chat message ordering
+- **Tool output ordering**: Fixed inline question preservation to maintain correct order of tool output in chat
+
+### Infrastructure
+- Updated vault-copilot submodule with CI fixes
+
+**Full Changelog**: https://github.com/danielshue/obsidian-vault-copilot-pro/compare/0.0.42...0.0.43
